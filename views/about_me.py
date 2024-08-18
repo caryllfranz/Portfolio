@@ -153,7 +153,7 @@ st.markdown('''
 txt('**BS Computer Engineering**, *Adamson University*, Philippines',
 '2020-2024')
 st.markdown('''
-- GPA: `2.17`
+- GPA: `2.00`
 - Research thesis entitled `SPOTSECURE:PARKING RESERVATION SYSTEM WITH PLATE NUMBER RECOGNITION THROUGH IMAGE PROCESSING`.
 ''')
 
