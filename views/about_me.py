@@ -23,12 +23,12 @@ resume_filename = "cv.pdf"
 col1, spacer, col2 = st.columns([1, 1, 4], gap="small")
 
 with col1:
-    st.image("pic.jpg", width=230)
+    st.image("profile-pic.png", width=230)
 
 with col2:
     st.title("Caryll Franz M. Cariño", anchor=False)
     st.write(
-        "Aspiring Data Analyst | Recent Computer Engineering Graduate from Adamson University | Based in the Philippines"
+        "Aspiring Software Engineer | Recent Computer Engineering Graduate from Adamson University | Based in the Philippines"
     )
 
     st.write(
@@ -157,11 +157,11 @@ st.markdown('''
 - Research thesis entitled `SPOTSECURE:PARKING RESERVATION SYSTEM WITH PLATE NUMBER RECOGNITION THROUGH IMAGE PROCESSING`.
 ''')
 
-txt('**ABM** (ACCOUNTANCY, BUSINESS, AND MANAGEMENT), *Kings Montessori School*, Philippines',
-'2018-2020')
-st.markdown('''
-- GPA: `3.65`
-''')
+# txt('**ABM** (ACCOUNTANCY, BUSINESS, AND MANAGEMENT), *Kings Montessori School*, Philippines',
+# '2018-2020')
+# st.markdown('''
+# - GPA: `3.65`
+# ''')
 
 #####################
 st.markdown('''
@@ -170,7 +170,6 @@ st.markdown('''
 
 txt('**Technomancer**', 'July 2023- Aug 2023')
 st.markdown('''
-
 - Developed web applications with PHP
 - Created CRUD functionalities
 - Gained experience with Laravel routing

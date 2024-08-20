@@ -7,11 +7,11 @@ import streamlit as st
 # Streamed response emulator
 def response_generator():
     responses = [
-        "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-        "The only way to do great work is to love what you do. – Steve Jobs",
-        "Believe you can and you're halfway there. – Theodore Roosevelt",
-        "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt",
-        "You are never too old to set another goal or to dream a new dream. – C.S. Lewis"
+        "connect me through linkedin https://www.linkedin.com/in/caryllfmc/",
+        "Hello, contact me @caryllcarino",
+        "Hello, call me at #09687056310",
+        "boss??"
+    
     ]
     
     response = random.choice(responses)
@@ -33,7 +33,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Accept user input
-if prompt := st.chat_input("What is up?"):
+if prompt := st.chat_input("Kamusta ang buhay-buhay boss??"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     # Display user message in chat message container

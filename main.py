@@ -26,7 +26,7 @@ project_2_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "motivator":[project_2_page]
+        "Chat me:":[project_2_page]
     }
 )
 
