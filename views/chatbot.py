@@ -10,7 +10,9 @@ def response_generator():
         "connect me through linkedin https://www.linkedin.com/in/caryllfmc/",
         "Hello, contact me @caryllcarino",
         "Hello, call me at #09687056310",
-        "boss??"
+        "boss??",
+        "EVERYDAY IS GOOD DAY TO LEARN",
+        "Consistency is the key!"
     
     ]
     
